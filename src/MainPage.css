@@ -1,0 +1,56 @@
+.posit-header {
+    width: 100%;
+    margin-top: 60px;
+    justify-content: center;
+    display: flex;
+}
+
+.posit-header-container {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.posit-header-logo {
+    max-width: 220px;
+    max-height: 36px;
+}
+
+.posit-header-logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.posit-header-nav-ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    width: 90vh;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.posit-header-nav-ul a {
+    text-decoration: none;
+    color: black;
+    font-family: "Space Grotesk", sans-serif;
+}
+
+.posit-header-nav-ul li {
+    transition: transform 0.5s ease-in-out;
+}
+
+.posit-header-nav-ul-button {
+    border: 1px solid black;
+    border-radius: 14px;
+    width: 231px;
+    height: 68px;
+    cursor: pointer;
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: normal;
+    background-color: white;
+    transition: transform 0.5s ease-in-out;
+}
+.posit-header-nav-ul-button:hover, .posit-header-nav-ul li:hover {
+    transform: scale(1.05);
+}
