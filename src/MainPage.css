@@ -1,5 +1,16 @@
-.posit-header-nav-ul-button:hover, .posit-header-nav-ul li:hover, .posit-main-sec1-button:hover, .posit-main-company-sec-img:hover {
+.posit-header-nav-ul-button:hover,
+.posit-header-nav-ul li:hover,
+.posit-main-sec1-button:hover,
+.posit-main-company-sec-img:hover,
+.posit-main-services-card-container-part1-g a:hover,
+.posit-main-services-card-container-part1-w a:hover{
     transform: scale(1.1);
+}
+
+:root {
+    --posit-green: #B9FF66;
+    --dark: #191A23;
+    --posit-white: #F3F3F3;
 }
 
 .posit-header {
@@ -91,7 +102,7 @@
 .posit-main-sec1-button {
     width: 264px;
     height: 68px;
-    background-color: #191A23;
+    background-color: var(--dark);
     border: 0;
     border-radius: 14px;
     color: white;
@@ -134,7 +145,7 @@
     font-size: 40px;
     font-family: "Space Grotesk", sans-serif;
     font-weight: bold;
-    background-color: #B9FF66;
+    background-color: var(--posit-green);
     padding: 5px;
     border-radius: 7px;
 }
@@ -156,8 +167,8 @@
 
 .posit-main-services-card-1 {
     width: 700px;
-    height: 310px;
-    background-color: #F3F3F3;
+    height: 410px;
+    background-color: var(--posit-white);
     border: 1px solid black;
     border-radius: 45px;
     margin-top: 40px;
@@ -166,8 +177,8 @@
 
 .posit-main-services-card-2 {
     width: 700px;
-    height: 310px;
-    background-color: #F3F3F3;
+    height: 410px;
+    background-color: var(--dark);
     border: 1px solid black;
     border-radius: 45px;
     margin-top: 40px;
@@ -176,8 +187,8 @@
 
 .posit-main-services-card-3 {
     width: 700px;
-    height: 310px;
-    background-color: #F3F3F3;
+    height: 410px;
+    background-color: var(--posit-green);
     border: 1px solid black;
     border-radius: 45px;
     margin-top: 40px;
@@ -186,8 +197,8 @@
 
 .posit-main-services-card-4 {
     width: 700px;
-    height: 310px;
-    background-color: #F3F3F3;
+    height: 410px;
+    background-color: var(--posit-green);
     border: 1px solid black;
     border-radius: 45px;
     margin-top: 40px;
@@ -196,8 +207,8 @@
 
 .posit-main-services-card-5 {
     width: 700px;
-    height: 310px;
-    background-color: #F3F3F3;
+    height: 410px;
+    background-color: var(--posit-white);
     border: 1px solid black;
     border-radius: 45px;
     margin-top: 40px;
@@ -206,8 +217,8 @@
 
 .posit-main-services-card-6 {
     width: 700px;
-    height: 310px;
-    background-color: #F3F3F3;
+    height: 410px;
+    background-color: var(--dark);
     border: 1px solid black;
     border-radius: 45px;
     margin-top: 40px;
@@ -219,4 +230,54 @@
     align-items: end;
     flex-wrap: wrap;
     flex-direction: column;
+}
+
+.posit-main-services-card-container {
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70%;
+}
+
+.posit-main-services-card-container-part1-g {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.posit-main-services-card-container-part1-w {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.posit-main-services-card-container-part1-w h1 {
+    background-color: var(--posit-white);
+    padding: 5px;
+    border-radius: 7px;
+    font-size: 35px;
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: bold;
+}
+
+.posit-main-services-card-container-part1-g a {
+    transition: transform 0.5s ease-in-out;
+}
+
+.posit-main-services-card-container-part1-w a {
+    transition: transform 0.5s ease-in-out;
+}
+
+.posit-main-services-card-container-part1-g h1 {
+    background-color: var(--posit-green);
+    padding: 5px;
+    border-radius: 7px;
+    font-size: 35px;
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: bold;
 }
