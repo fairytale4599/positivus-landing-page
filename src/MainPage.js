@@ -119,6 +119,59 @@ function MainPage() {
                     </div>
                 </div>
             </section>
+            <section className="posit-main-proposal-sec">
+                <div className="posit-main-proposal-sec-container">
+                    <div className="posit-main-proposal-sec-container-part1">
+                        <h1>Let's make things happen</h1>
+                        <p>Contact us today to learn more about how our digital<br/>
+                            marketing services can help your business grow and<br/>
+                            succeed online.
+                        </p>
+                        <a href="#"><button className="posit-main-proposal-sec-button">Get your free proposal</button></a>
+                    </div>
+                    <img src={Images.ProposalPhoto} className="posit-main-proposal-sec-container-img" alt="Proposal" />
+                </div>
+            </section>
+            <section className="posit-main-casestud-sec">
+                <header className="posit-main-casestud-sec-header">
+                    <h1>Case Studies</h1>
+                    <p>Explore Real-Life Examples of Our Proven Digital Marketing<br/>
+                        Success through Our Case Studies
+                    </p>
+                </header>
+                <div className="posit-main-casestud-sec-cases">
+                    <div className="posit-main-casestud-sec-cases-container">
+                        <div className="posit-main-casestud-sec-case">
+                            <p>For a local restaurant, we<br/>
+                                implemented a targeted PPC<br/>
+                                campaign that resulted in a 50%<br/>
+                                increase in website traffic
+                                and a <br/>25% increase in sales.
+                            </p>
+                            <a href="#"><img src={Images.LearnMoreWhite} alt="Learn more"/></a>
+                        </div>
+                        <div className="posit-main-casestud-sec-case">
+                            <p>For a B2B software company, we<br/>
+                                developed an SEO strategy that<br/>
+                                resulted in a first page ranking<br/>
+                                for key keywords and a 200%<br/>
+                                increase in organic traffic.
+                            </p>
+                            <a href="#"><img src={Images.LearnMoreWhite} alt="Learn more"/></a>
+                        </div>
+                        <div className="posit-main-casestud-sec-case">
+                            <p>For a national retail chain, we<br/>
+                                created a social media<br/>
+                                marketing campaign that<br/>
+                                increased followers by 25%<br/>
+                                and generated a 20% increase in<br/>
+                                online sales.
+                            </p>
+                            <a href="#"><img src={Images.LearnMoreWhite} alt="Learn more"/></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </main>
     </div>
   );

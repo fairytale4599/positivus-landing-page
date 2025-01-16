@@ -3,7 +3,9 @@
 .posit-main-sec1-button:hover,
 .posit-main-company-sec-img:hover,
 .posit-main-services-card-container-part1-g a:hover,
-.posit-main-services-card-container-part1-w a:hover{
+.posit-main-services-card-container-part1-w a:hover,
+.posit-main-proposal-sec-container-part1 button:hover,
+.posit-main-casestud-sec-case img:hover {
     transform: scale(1.1);
 }
 
@@ -280,4 +282,133 @@
     font-size: 35px;
     font-family: "Space Grotesk", sans-serif;
     font-weight: bold;
+}
+
+.posit-main-proposal-sec {
+    width: 80%;
+    margin-top: 400px;
+    background-color: var(--posit-white);
+    height: 447px;
+    border-radius: 45px;
+}
+
+.posit-main-proposal-sec-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px;
+    width: 90%;
+    height: 80%;
+}
+
+.posit-main-proposal-sec-container-part1 {
+    height: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.posit-main-proposal-sec-container-part1 h1 {
+    padding: 5px;
+    border-radius: 7px;
+    font-size: 35px;
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 600;
+}
+
+.posit-main-proposal-sec-container-part1 p {
+    font-size: 22px;
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: normal;
+}
+
+.posit-main-proposal-sec-button {
+    height: 68px;
+    width: 288px;
+    background-color: var(--dark);
+    color: var(--posit-white);
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    border: 0;
+    border-radius: 14px;
+}
+
+.posit-main-proposal-sec-container-part1 a {
+    width: 288px;
+}
+
+.posit-main-proposal-sec-container-img {
+    position: sticky;
+    height: 559px;
+}
+
+.posit-main-proposal-sec-container-part1 button {
+    cursor: pointer;
+    transition: transform 0.5s ease-in-out;
+}
+
+.posit-main-casestud-sec {
+    margin-top: 140px;
+    width: 100%;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.posit-main-casestud-sec-header {
+    width: 80%;
+    display: flex;
+    align-items: center;
+}
+
+.posit-main-casestud-sec-header h1 {
+    font-size: 40px;
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: bold;
+    background-color: var(--posit-green);
+    padding: 5px;
+    border-radius: 7px;
+}
+
+.posit-main-casestud-sec-header p {
+    font-size: 22px;
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: normal;
+    margin-left: 40px;
+}
+
+.posit-main-casestud-sec-cases {
+    margin-top: 80px;
+    background-color: var(--dark);
+    width: 80%;
+    height: 426px;
+    border-radius: 45px;
+}
+
+.posit-main-casestud-sec-cases-container {
+    margin: 90px 120px 90px 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60%;
+}
+
+.posit-main-casestud-sec-cases-container > :nth-child(2) {
+    border-left: 1px solid var(--posit-white);
+    border-right: 1px solid var(--posit-white);
+    padding: 0 64px 0 64px;
+}
+
+.posit-main-casestud-sec-case p {
+    font-size: 22px;
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 300;
+    color: var(--posit-white);
+}
+
+.posit-main-casestud-sec-case img {
+    transition: transform 0.5s ease-in-out;
 }

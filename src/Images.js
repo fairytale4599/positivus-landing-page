@@ -14,8 +14,9 @@ import Card3Pic from './image/card-3-pic.png';
 import Card4Pic from './image/card-4-pic.png';
 import Card5Pic from './image/card-5-pic.png';
 import Card6Pic from './image/card-6-pic.png';
+import ProposalPhoto from './image/proposal-photo.png'
 
 let Images = {PositivusLogo, MainTextImg, AmazonImg, DribbleImg, HubspotImg, NotionImg, NetflixImg,
-    ZoomImg, LearnMoreGreen, LearnMoreWhite, Card1Pic, Card2Pic, Card3Pic, Card4Pic, Card5Pic, Card6Pic}
+    ZoomImg, LearnMoreGreen, LearnMoreWhite, Card1Pic, Card2Pic, Card3Pic, Card4Pic, Card5Pic, Card6Pic, ProposalPhoto}
 
 export default Images;
