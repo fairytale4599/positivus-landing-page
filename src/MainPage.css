@@ -1,3 +1,7 @@
+.posit-header-nav-ul-button:hover, .posit-header-nav-ul li:hover, .posit-main-sec1-button:hover {
+    transform: scale(1.05);
+}
+
 .posit-header {
     width: 100%;
     margin-top: 60px;
@@ -51,6 +55,46 @@
     background-color: white;
     transition: transform 0.5s ease-in-out;
 }
-.posit-header-nav-ul-button:hover, .posit-header-nav-ul li:hover {
-    transform: scale(1.05);
+
+
+.posit-main {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.posit-main-sec1 {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.posit-main-sec1-img {
+    max-width: 600px;
+    max-height: 515px;
+}
+
+.posit-main-sec1-text-header {
+    font-size: 70px;
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: bold;
+}
+
+.posit-main-sec1-text-paragraph {
+    font-size: 20px;
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: normal;
+}
+
+.posit-main-sec1-button {
+    width: 264px;
+    height: 68px;
+    background-color: #191A23;
+    border: 0;
+    border-radius: 14px;
+    color: white;
+    font-size: 20px;
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: normal;
+    transition: transform 0.5s ease-in-out;
 }
