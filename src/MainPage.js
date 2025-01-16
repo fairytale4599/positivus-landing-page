@@ -1,5 +1,6 @@
 import './MainPage.css';
 import Images from './Images';
+import WrapUnwrap from './UnwrapStage';
 
 function MainPage() {
   return (
@@ -169,6 +170,72 @@ function MainPage() {
                             </p>
                             <a href="#"><img src={Images.LearnMoreWhite} alt="Learn more"/></a>
                         </div>
+                    </div>
+                </div>
+            </section>
+            <section className="posit-main-workproc-sec">
+                <header className="posit-main-workproc-sec-header">
+                    <h1>Our Working Process</h1>
+                    <p>Step-by-Step Guide to Achieving<br/>
+                        Your Business Goals
+                    </p>
+                </header>
+                <div className="posit-main-workproc-sec-stage">
+                    <div className="posit-main-workproc-sec-stage-container">
+                        <div className="posit-main-workproc-sec-stage-name">
+                            <h1>01</h1>
+                            <h3>Consultation</h3>
+                        </div>
+                        <button><img alt="Unwrap" src={Images.UnwrapButton} onClick={WrapUnwrap} style={{position: "sticky"}}/></button>
+                    </div>
+                    <p className="posit-main-workproc-sec-stage-text">During the initial consultation,
+                        we will discuss your business goals and objectives, target audience, and current marketing efforts.
+                        This will allow us to understand your needs and tailor our services to best fit your requirements.
+                    </p>
+                </div>
+                <div className="posit-main-workproc-sec-stage">
+                    <div className="posit-main-workproc-sec-stage-container">
+                        <div className="posit-main-workproc-sec-stage-name">
+                            <h1>02</h1>
+                            <h3>Research and Strategy Development</h3>
+                        </div>
+                        <button><img alt="Unwrap" src={Images.UnwrapButton}/></button>
+                    </div>
+                </div>
+                <div className="posit-main-workproc-sec-stage">
+                    <div className="posit-main-workproc-sec-stage-container">
+                        <div className="posit-main-workproc-sec-stage-name">
+                            <h1>03</h1>
+                            <h3>Implementation</h3>
+                        </div>
+                        <button><img alt="Unwrap" src={Images.UnwrapButton}/></button>
+                    </div>
+                </div>
+                <div className="posit-main-workproc-sec-stage">
+                    <div className="posit-main-workproc-sec-stage-container">
+                        <div className="posit-main-workproc-sec-stage-name">
+                            <h1>04</h1>
+                            <h3>Monitoring and Optimization</h3>
+                        </div>
+                        <button><img alt="Unwrap" src={Images.UnwrapButton}/></button>
+                    </div>
+                </div>
+                <div className="posit-main-workproc-sec-stage">
+                    <div className="posit-main-workproc-sec-stage-container">
+                        <div className="posit-main-workproc-sec-stage-name">
+                            <h1>05</h1>
+                            <h3>Reporting and Communication</h3>
+                        </div>
+                        <button><img alt="Unwrap" src={Images.UnwrapButton}/></button>
+                    </div>
+                </div>
+                <div className="posit-main-workproc-sec-stage">
+                    <div className="posit-main-workproc-sec-stage-container">
+                        <div className="posit-main-workproc-sec-stage-name">
+                            <h1>06</h1>
+                            <h3>Continual Improvement</h3>
+                        </div>
+                        <button><img alt="Unwrap" src={Images.UnwrapButton}/></button>
                     </div>
                 </div>
             </section>

@@ -412,3 +412,85 @@
 .posit-main-casestud-sec-case img {
     transition: transform 0.5s ease-in-out;
 }
+
+.posit-main-workproc-sec {
+    margin-top: 140px;
+    width: 100%;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.posit-main-workproc-sec-header {
+    width: 80%;
+    display: flex;
+    align-items: center;
+}
+
+.posit-main-workproc-sec-header h1 {
+    font-size: 40px;
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: bold;
+    background-color: var(--posit-green);
+    padding: 5px;
+    border-radius: 7px;
+}
+
+.posit-main-workproc-sec-header p {
+    font-size: 22px;
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: normal;
+    margin-left: 40px;
+}
+
+.posit-main-workproc-sec-stage {
+    width: 80%;
+    height: 159px;
+    background-color: var(--posit-white);
+    border: 1px solid black;
+    border-radius: 45px;
+    margin-top: 30px;
+    box-shadow: 0 5px 0 black;
+    overflow: hidden;
+}
+
+.posit-main-workproc-sec-stage-container {
+    margin: 0 57px 21px 60px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+
+.posit-main-workproc-sec-stage-container button {
+    border-radius: 100px;
+    width: 51px;
+    height: 51px;
+    color: transparent;
+    border: 0;
+    cursor: pointer;
+}
+
+.posit-main-workproc-sec-stage-name {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    line-height: 1;
+    height: 40%;
+    border-bottom: 1px solid black;
+}
+
+.posit-main-workproc-sec-stage-name h1 {
+    font-size: 60px;
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: bold;
+}
+
+.posit-main-workproc-sec-stage-name h3 {
+    font-size: 35px;
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 600;
+    margin-left: 25px;
+}
