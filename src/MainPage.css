@@ -125,7 +125,7 @@
     font-weight: normal;
 }
 
-.posit-main-sec1-button {
+.posit-main-sec-button {
     width: 264px;
     height: 68px;
     background-color: var(--dark);
@@ -325,18 +325,6 @@
     font-weight: normal;
 }
 
-.posit-main-proposal-sec-button {
-    height: 68px;
-    width: 288px;
-    background-color: var(--dark);
-    color: var(--posit-white);
-    font-family: "Space Grotesk", sans-serif;
-    font-weight: normal;
-    font-size: 20px;
-    border: 0;
-    border-radius: 14px;
-}
-
 .posit-main-proposal-sec-container-part1 a {
     width: 288px;
 }
@@ -534,4 +522,8 @@
     font-family: "Space Grotesk", sans-serif;
     font-weight: normal;
     width: 21vh;
+}
+
+.posit-main-team-sec-inline:last-of-type {
+    justify-content: flex-end;
 }

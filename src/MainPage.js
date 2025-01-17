@@ -33,7 +33,7 @@ function MainPage() {
                         and content creation.
                     </p>
                     <a href="#">
-                        <button className="posit-main-sec1-button">Book a consultation</button>
+                        <button className="posit-main-sec-button">Book a consultation</button>
                     </a>
                 </div>
                 <img className="posit-main-sec1-img" alt="Image" src={Images.MainTextImg}/>
@@ -128,7 +128,7 @@ function MainPage() {
                             marketing services can help your business grow and<br/>
                             succeed online.
                         </p>
-                        <a href="#"><button className="posit-main-proposal-sec-button">Get your free proposal</button></a>
+                        <a href="#"><button className="posit-main-sec-button">Get your free proposal</button></a>
                     </div>
                     <img src={Images.ProposalPhoto} className="posit-main-proposal-sec-container-img" alt="Proposal" />
                 </div>
@@ -375,6 +375,9 @@ function MainPage() {
                             </p>
                         </div>
                     </div>
+                </div>
+                <div className="posit-main-team-sec-inline">
+                    <button className="posit-main-sec-button">See all team</button>
                 </div>
             </section>
         </main>
