@@ -459,15 +459,16 @@
     margin: 0 57px 21px 60px;
     height: 100%;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
     overflow: hidden;
 }
 
 .posit-main-workproc-sec-stage-container button {
     border-radius: 100px;
-    width: 51px;
-    height: 51px;
+    width: 65px;
+    height: 59px;
+    margin-right: 15px;
     color: transparent;
     border: 0;
     cursor: pointer;
@@ -479,18 +480,34 @@
     width: 100%;
     line-height: 1;
     height: 40%;
-    border-bottom: 1px solid black;
+    position: sticky;
+    padding-top: 41px;
 }
 
 .posit-main-workproc-sec-stage-name h1 {
     font-size: 60px;
     font-family: "Space Grotesk", sans-serif;
     font-weight: bold;
+    margin: 0;
 }
 
 .posit-main-workproc-sec-stage-name h3 {
     font-size: 35px;
     font-family: "Space Grotesk", sans-serif;
     font-weight: 600;
-    margin-left: 25px;
+    margin: 0 0 0 25px;
+}
+
+.posit-main-workproc-sec-stage-name-header {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    line-height: 1;
+}
+
+.posit-main-workproc-sec-stage-text {
+    margin-top: 50px;
+    font-size: 18px;
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: normal;
 }

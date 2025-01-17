@@ -183,59 +183,103 @@ function MainPage() {
                 <div className="posit-main-workproc-sec-stage">
                     <div className="posit-main-workproc-sec-stage-container">
                         <div className="posit-main-workproc-sec-stage-name">
-                            <h1>01</h1>
-                            <h3>Consultation</h3>
+                            <div className="posit-main-workproc-sec-stage-name-header">
+                                <h1>01</h1>
+                                <h3>Consultation</h3>
+                            </div>
+                            <button><img alt="Unwrap" src={Images.UnwrapButton} onClick={WrapUnwrap}/></button>
                         </div>
-                        <button><img alt="Unwrap" src={Images.UnwrapButton} onClick={WrapUnwrap} style={{position: "sticky"}}/></button>
-                    </div>
-                    <p className="posit-main-workproc-sec-stage-text">During the initial consultation,
-                        we will discuss your business goals and objectives, target audience, and current marketing efforts.
-                        This will allow us to understand your needs and tailor our services to best fit your requirements.
-                    </p>
-                </div>
-                <div className="posit-main-workproc-sec-stage">
-                    <div className="posit-main-workproc-sec-stage-container">
-                        <div className="posit-main-workproc-sec-stage-name">
-                            <h1>02</h1>
-                            <h3>Research and Strategy Development</h3>
-                        </div>
-                        <button><img alt="Unwrap" src={Images.UnwrapButton}/></button>
+                        <p className="posit-main-workproc-sec-stage-text">During the initial consultation,
+                            we will discuss your business goals and objectives, target audience, and current marketing
+                            efforts.
+                            This will allow us to understand your needs and tailor our services to best fit your
+                            requirements.
+                        </p>
                     </div>
                 </div>
                 <div className="posit-main-workproc-sec-stage">
                     <div className="posit-main-workproc-sec-stage-container">
                         <div className="posit-main-workproc-sec-stage-name">
-                            <h1>03</h1>
-                            <h3>Implementation</h3>
+                            <div className="posit-main-workproc-sec-stage-name-header">
+                                <h1>02</h1>
+                                <h3>Research and Strategy Development</h3>
+                            </div>
+                            <button><img alt="Unwrap" src={Images.UnwrapButton} onClick={WrapUnwrap}/></button>
                         </div>
-                        <button><img alt="Unwrap" src={Images.UnwrapButton}/></button>
+                        <p className="posit-main-workproc-sec-stage-text">At vero eos et accusamus et
+                            iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum
+                            deleniti atque corrupti quos dolores et quas molestias excepturi sint
+                            occaecati cupiditate non provident, similique sunt in culpa qui officia
+                            deserunt mollitia animi, id est laborum et dolorum fuga.
+                        </p>
                     </div>
                 </div>
                 <div className="posit-main-workproc-sec-stage">
                     <div className="posit-main-workproc-sec-stage-container">
                         <div className="posit-main-workproc-sec-stage-name">
-                            <h1>04</h1>
-                            <h3>Monitoring and Optimization</h3>
+                            <div className="posit-main-workproc-sec-stage-name-header">
+                                <h1>03</h1>
+                                <h3>Implementation</h3>
+                            </div>
+                            <button><img alt="Unwrap" src={Images.UnwrapButton} onClick={WrapUnwrap}/></button>
                         </div>
-                        <button><img alt="Unwrap" src={Images.UnwrapButton}/></button>
+                        <p className="posit-main-workproc-sec-stage-text">At vero eos et accusamus et
+                            iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum
+                            deleniti atque corrupti quos dolores et quas molestias excepturi sint
+                            occaecati cupiditate non provident, similique sunt in culpa qui officia
+                            deserunt mollitia animi, id est laborum et dolorum fuga.
+                        </p>
                     </div>
                 </div>
                 <div className="posit-main-workproc-sec-stage">
                     <div className="posit-main-workproc-sec-stage-container">
                         <div className="posit-main-workproc-sec-stage-name">
-                            <h1>05</h1>
-                            <h3>Reporting and Communication</h3>
+                            <div className="posit-main-workproc-sec-stage-name-header">
+                                <h1>04</h1>
+                                <h3>Monitoring and Optimization</h3>
+                            </div>
+                            <button><img alt="Unwrap" src={Images.UnwrapButton} onClick={WrapUnwrap}/></button>
                         </div>
-                        <button><img alt="Unwrap" src={Images.UnwrapButton}/></button>
+                        <p className="posit-main-workproc-sec-stage-text">At vero eos et accusamus et
+                            iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum
+                            deleniti atque corrupti quos dolores et quas molestias excepturi sint
+                            occaecati cupiditate non provident, similique sunt in culpa qui officia
+                            deserunt mollitia animi, id est laborum et dolorum fuga.
+                        </p>
                     </div>
                 </div>
                 <div className="posit-main-workproc-sec-stage">
                     <div className="posit-main-workproc-sec-stage-container">
                         <div className="posit-main-workproc-sec-stage-name">
-                            <h1>06</h1>
-                            <h3>Continual Improvement</h3>
+                            <div className="posit-main-workproc-sec-stage-name-header">
+                                <h1>05</h1>
+                                <h3>Reporting and Communication</h3>
+                            </div>
+                            <button><img alt="Unwrap" src={Images.UnwrapButton} onClick={WrapUnwrap}/></button>
                         </div>
-                        <button><img alt="Unwrap" src={Images.UnwrapButton}/></button>
+                        <p className="posit-main-workproc-sec-stage-text">At vero eos et accusamus et
+                            iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum
+                            deleniti atque corrupti quos dolores et quas molestias excepturi sint
+                            occaecati cupiditate non provident, similique sunt in culpa qui officia
+                            deserunt mollitia animi, id est laborum et dolorum fuga.
+                        </p>
+                    </div>
+                </div>
+                <div className="posit-main-workproc-sec-stage">
+                    <div className="posit-main-workproc-sec-stage-container">
+                        <div className="posit-main-workproc-sec-stage-name">
+                            <div className="posit-main-workproc-sec-stage-name-header">
+                                <h1>06</h1>
+                                <h3>Continual Improvement</h3>
+                            </div>
+                            <button><img alt="Unwrap" src={Images.UnwrapButton} onClick={WrapUnwrap}/></button>
+                        </div>
+                        <p className="posit-main-workproc-sec-stage-text">At vero eos et accusamus et
+                            iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum
+                            deleniti atque corrupti quos dolores et quas molestias excepturi sint
+                            occaecati cupiditate non provident, similique sunt in culpa qui officia
+                            deserunt mollitia animi, id est laborum et dolorum fuga.
+                        </p>
                     </div>
                 </div>
             </section>
