@@ -5,7 +5,8 @@
 .posit-main-services-card-container-part1-g a:hover,
 .posit-main-services-card-container-part1-w a:hover,
 .posit-main-proposal-sec-container-part1 button:hover,
-.posit-main-casestud-sec-case img:hover {
+.posit-main-casestud-sec-case img:hover,
+.posit-main-team-sec-inline-staff:hover {
     transform: scale(1.1);
 }
 
@@ -20,6 +21,29 @@
     margin-top: 60px;
     justify-content: center;
     display: flex;
+}
+
+.posit-main-sec-header {
+    width: 80%;
+    display: flex;
+    align-items: center;
+}
+
+.posit-main-sec-header h1 {
+    font-size: 40px;
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: bold;
+    background-color: var(--posit-green);
+    padding: 5px;
+    border-radius: 7px;
+}
+
+.posit-main-sec-header p {
+    font-size: 22px;
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: normal;
+    margin-left: 40px;
+    width: 45%;
 }
 
 .posit-header-container {
@@ -134,28 +158,6 @@
 .posit-main-services-sec {
     margin-top: 140px;
     width: 80%;
-}
-
-.posit-main-services-sec-header {
-    display: flex;
-    justify-content: space-between;
-    width: 63%;
-    align-items: center;
-}
-
-.posit-main-services-sec-header h1 {
-    font-size: 40px;
-    font-family: "Space Grotesk", sans-serif;
-    font-weight: bold;
-    background-color: var(--posit-green);
-    padding: 5px;
-    border-radius: 7px;
-}
-
-.posit-main-services-sec-header p {
-    font-size: 22px;
-    font-family: "Space Grotesk", sans-serif;
-    font-weight: normal;
 }
 
 .posit-main-services-sec-cards {
@@ -358,28 +360,6 @@
     flex-direction: column;
 }
 
-.posit-main-casestud-sec-header {
-    width: 80%;
-    display: flex;
-    align-items: center;
-}
-
-.posit-main-casestud-sec-header h1 {
-    font-size: 40px;
-    font-family: "Space Grotesk", sans-serif;
-    font-weight: bold;
-    background-color: var(--posit-green);
-    padding: 5px;
-    border-radius: 7px;
-}
-
-.posit-main-casestud-sec-header p {
-    font-size: 22px;
-    font-family: "Space Grotesk", sans-serif;
-    font-weight: normal;
-    margin-left: 40px;
-}
-
 .posit-main-casestud-sec-cases {
     margin-top: 80px;
     background-color: var(--dark);
@@ -420,28 +400,6 @@
     align-content: center;
     flex-wrap: wrap;
     flex-direction: column;
-}
-
-.posit-main-workproc-sec-header {
-    width: 80%;
-    display: flex;
-    align-items: center;
-}
-
-.posit-main-workproc-sec-header h1 {
-    font-size: 40px;
-    font-family: "Space Grotesk", sans-serif;
-    font-weight: bold;
-    background-color: var(--posit-green);
-    padding: 5px;
-    border-radius: 7px;
-}
-
-.posit-main-workproc-sec-header p {
-    font-size: 22px;
-    font-family: "Space Grotesk", sans-serif;
-    font-weight: normal;
-    margin-left: 40px;
 }
 
 .posit-main-workproc-sec-stage {
@@ -510,4 +468,70 @@
     font-size: 18px;
     font-family: "Space Grotesk", sans-serif;
     font-weight: normal;
+}
+
+.posit-main-team-sec {
+    margin-top: 140px;
+    width: 100%;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.posit-main-team-sec-inline {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.posit-main-team-sec-inline-staff {
+    width: 447px;
+    height: 331px;
+    background-color: var(--posit-white);
+    border: 1px solid black;
+    border-radius: 45px;
+    margin-top: 30px;
+    box-shadow: 0 5px 0 black;
+    transition: transform 0.5s ease-in-out;
+}
+
+.posit-main-team-sec-inline-staff-container {
+    margin: 40px;
+}
+
+.posit-main-team-sec-inline-staff-container p {
+    margin-top: 30px;
+    font-size: 18px;
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: normal;
+}
+
+.posit-main-team-sec-inline-staff-header {
+    display: flex;
+    padding-bottom: 28px;
+    border-bottom: 1px solid black;
+}
+
+.posit-main-team-sec-inline-staff-header-name {
+    margin: 0 0 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.posit-main-team-sec-inline-staff-header-name h3 {
+    margin: 0;
+    font-size: 20px;
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 600;
+}
+
+.posit-main-team-sec-inline-staff-header-name p {
+    margin: 0;
+    font-size: 18px;
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: normal;
+    width: 21vh;
 }

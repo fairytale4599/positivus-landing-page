@@ -51,7 +51,7 @@ function MainPage() {
                 </div>
             </section>
             <section className="posit-main-services-sec">
-                <header className="posit-main-services-sec-header">
+                <header className="posit-main-sec-header">
                     <h1>Services</h1>
                     <p>At our digital marketing agency,
                         we offer a range of services <br/>
@@ -134,7 +134,7 @@ function MainPage() {
                 </div>
             </section>
             <section className="posit-main-casestud-sec">
-                <header className="posit-main-casestud-sec-header">
+                <header className="posit-main-sec-header">
                     <h1>Case Studies</h1>
                     <p>Explore Real-Life Examples of Our Proven Digital Marketing<br/>
                         Success through Our Case Studies
@@ -174,7 +174,7 @@ function MainPage() {
                 </div>
             </section>
             <section className="posit-main-workproc-sec">
-                <header className="posit-main-workproc-sec-header">
+                <header className="posit-main-sec-header">
                     <h1>Our Working Process</h1>
                     <p>Step-by-Step Guide to Achieving<br/>
                         Your Business Goals
@@ -280,6 +280,100 @@ function MainPage() {
                             occaecati cupiditate non provident, similique sunt in culpa qui officia
                             deserunt mollitia animi, id est laborum et dolorum fuga.
                         </p>
+                    </div>
+                </div>
+            </section>
+            <section className="posit-main-team-sec">
+                <header className="posit-main-sec-header">
+                    <h1>Team</h1>
+                    <p>Meet the skilled and experienced team behind our successful digital marketing strategies</p>
+                </header>
+                <div className="posit-main-team-sec-inline">
+                    <div className="posit-main-team-sec-inline-staff">
+                        <div className="posit-main-team-sec-inline-staff-container">
+                            <header className="posit-main-team-sec-inline-staff-header">
+                                <img src={Images.JohnSmith} alt="Staff"/>
+                                <div className="posit-main-team-sec-inline-staff-header-name">
+                                    <h3>John Smith</h3>
+                                    <p>CEO and Founder</p>
+                                </div>
+                            </header>
+                            <p>10+ years of experience in digital marketing.
+                                Expertise in SEO, PPC, and content strategy.
+                            </p>
+                        </div>
+                    </div>
+                    <div className="posit-main-team-sec-inline-staff">
+                        <div className="posit-main-team-sec-inline-staff-container">
+                            <header className="posit-main-team-sec-inline-staff-header">
+                                <img src={Images.JaneDoe} alt="Staff"/>
+                                <div className="posit-main-team-sec-inline-staff-header-name">
+                                    <h3>Jane Doe</h3>
+                                    <p>Director of Operations</p>
+                                </div>
+                            </header>
+                            <p>7+ years of experience in project management and team leadership.
+                                Strong organizational and communication skills.
+                            </p>
+                        </div>
+                    </div>
+                    <div className="posit-main-team-sec-inline-staff">
+                        <div className="posit-main-team-sec-inline-staff-container">
+                            <header className="posit-main-team-sec-inline-staff-header">
+                                <img src={Images.MichaelBrown} alt="Staff"/>
+                                <div className="posit-main-team-sec-inline-staff-header-name">
+                                    <h3>Michael Brown</h3>
+                                    <p>Senior SEO Specialist</p>
+                                </div>
+                            </header>
+                            <p>5+ years of experience in SEO and content creation.
+                                Proficient in keyword research and on-page optimization.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div className="posit-main-team-sec-inline">
+                    <div className="posit-main-team-sec-inline-staff">
+                        <div className="posit-main-team-sec-inline-staff-container">
+                            <header className="posit-main-team-sec-inline-staff-header">
+                                <img src={Images.EmilyJohnson} alt="Staff"/>
+                                <div className="posit-main-team-sec-inline-staff-header-name">
+                                    <h3>Emily Johnson</h3>
+                                    <p>PPC Manager</p>
+                                </div>
+                            </header>
+                            <p>3+ years of experience in paid search advertising.
+                                Skilled in campaign management and performance analysis
+                            </p>
+                        </div>
+                    </div>
+                    <div className="posit-main-team-sec-inline-staff">
+                        <div className="posit-main-team-sec-inline-staff-container">
+                            <header className="posit-main-team-sec-inline-staff-header">
+                                <img src={Images.BrianWilliams} alt="Staff"/>
+                                <div className="posit-main-team-sec-inline-staff-header-name">
+                                    <h3>Brian Williams</h3>
+                                    <p>Social Media Specialist</p>
+                                </div>
+                            </header>
+                            <p>3+ years of experience in paid search advertising.
+                                Skilled in campaign management and performance analysis
+                            </p>
+                        </div>
+                    </div>
+                    <div className="posit-main-team-sec-inline-staff">
+                        <div className="posit-main-team-sec-inline-staff-container">
+                            <header className="posit-main-team-sec-inline-staff-header">
+                                <img src={Images.SarahKim} alt="Staff"/>
+                                <div className="posit-main-team-sec-inline-staff-header-name">
+                                    <h3>Sarah Kim</h3>
+                                    <p>Content Creator</p>
+                                </div>
+                            </header>
+                            <p>2+ years of experience in writing and editing
+                                Skilled in creating compelling, SEO-optimized content for various industries
+                            </p>
+                        </div>
                     </div>
                 </div>
             </section>

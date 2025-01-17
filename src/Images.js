@@ -16,9 +16,15 @@ import Card5Pic from './image/card-5-pic.png'
 import Card6Pic from './image/card-6-pic.png'
 import ProposalPhoto from './image/proposal-photo.png'
 import UnwrapButton from './image/unwrap-button.png'
+import JohnSmith from './image/jsmith.png'
+import JaneDoe from './image/janedoe.png'
+import MichaelBrown from './image/mickbrown.png'
+import EmilyJohnson from './image/emjohn.png'
+import BrianWilliams from './image/briwill.png'
+import SarahKim from './image/sarkim.png'
 
 let Images = {PositivusLogo, MainTextImg, AmazonImg, DribbleImg, HubspotImg, NotionImg, NetflixImg,
     ZoomImg, LearnMoreGreen, LearnMoreWhite, Card1Pic, Card2Pic, Card3Pic, Card4Pic, Card5Pic, Card6Pic, ProposalPhoto,
-    UnwrapButton}
+    UnwrapButton, JohnSmith, JaneDoe, MichaelBrown, EmilyJohnson, BrianWilliams, SarahKim}
 
 export default Images;
