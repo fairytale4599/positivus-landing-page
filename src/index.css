@@ -43,6 +43,12 @@
   font-display: swap;
 }
 
+:root {
+  --posit-green: #B9FF66;
+  --dark: #191A23;
+  --posit-white: #F3F3F3;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',

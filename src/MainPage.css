@@ -10,12 +10,6 @@
     transform: scale(1.1);
 }
 
-:root {
-    --posit-green: #B9FF66;
-    --dark: #191A23;
-    --posit-white: #F3F3F3;
-}
-
 .posit-header {
     width: 100%;
     margin-top: 60px;
@@ -526,4 +520,12 @@
 
 .posit-main-team-sec-inline:last-of-type {
     justify-content: flex-end;
+}
+
+.posit-main-reviews-sec {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
 }

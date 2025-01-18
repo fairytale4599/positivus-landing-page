@@ -18,5 +18,3 @@ export default function WrapUnwrap(event) {
     stageName.style.borderBottom = isWrapped ? "0" : "1px solid black"
     stageButton.style.backgroundColor = isWrapped ? "var(--posit-white)" : "var(--posit-green)";
 }
-
-//

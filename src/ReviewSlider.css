@@ -1,0 +1,102 @@
+.slider-main {
+    background-color: var(--dark);
+    width: 80%;
+    height: 725px;
+    margin-top: 80px;
+    border-radius: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider-container {
+    margin: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.slider-container-review {
+    border: 1px solid var(--posit-green);
+    border-radius: 45px;
+    width: 1200px;
+    height: 366px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--dark);
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.slider-container-review::after {
+    content: "";
+    position: absolute;
+    bottom: -100px;
+    left: 20%;
+    transform: translateX(-50%);
+    border-width: 50px;
+    border-style: solid;
+    border-color: var(--posit-green) transparent transparent transparent;
+    box-shadow: inset 500em 100em var(--dark);
+}
+
+.slider-container-user {
+    transform: translateX(-50%);
+    width: 30%;
+    margin-top: 30px;
+}
+
+.slider-container-user h2, p {
+    margin: 0;
+}
+
+.slider-user-name {
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    color: var(--posit-green);
+}
+
+.slider-user-job-title {
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    color: white;
+    width: 80%;
+}
+
+.slider-user-review {
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+    color: white;
+    width: 80%;
+}
+
+.slider-controls {
+    margin-top: 100px;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.slider-controls button {
+    background-color: transparent;
+    border: 0;
+}
+
+.slider-controls-mes button {
+    transition: all 0.5s ease-in-out;
+}
+
+.slider-control-arrow {
+    transition: opacity 0.2s ease-in-out;
+}
+
+.slider-control-arrow:disabled {
+    opacity: 0.5;
+}

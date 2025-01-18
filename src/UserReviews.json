@@ -1,0 +1,9 @@
+{
+  "users": [
+    {"name": "John Doe", "staff": "Marketing Director at XYZ Corp", "review": "We have been working with Positivus for the past year and have seen a significant increase in website traffic and leads as a result of their efforts. The team is professional, responsive, and truly cares about the success of our business. We highly recommend Positivus to any company looking to grow their online presence."},
+    {"name": "Jane Doe", "staff": "CEO Specialist at XYZ Corp", "review": "Positivus is the perfect template to showcase your agency's services and case studies to potential clients.\n\nPositivus comes with one screen for desktop as well as a variety of styles and components, all designed using Figma's auto layout feature for maximum efficiency."},
+    {"name": "Alice Johnson", "staff": "CTO at ABC Inc", "review": "The team at Positivus has been a game-changer for us. Their insights and strategies have led to a noticeable improvement in our digital footprint. We're thrilled with the results!"},
+    {"name": "Bob Smith", "staff": "Product Manager at DEF Ltd", "review": "Our collaboration with Positivus has exceeded our expectations. Their expertise and dedication are evident in the impressive growth we've seen. Highly recommended."},
+    {"name": "Emma Brown", "staff": "Sales Lead at GHI LLC", "review": "Positivus has been an invaluable partner in enhancing our online strategy. Their innovative approach and commitment to our success have made a significant impact on our business."}
+  ]
+}

@@ -22,9 +22,14 @@ import MichaelBrown from './image/mickbrown.png'
 import EmilyJohnson from './image/emjohn.png'
 import BrianWilliams from './image/briwill.png'
 import SarahKim from './image/sarkim.png'
+import ArrowR from './image/arrow-r.png'
+import ArrowL from './image/arrow-l.png'
+import MessageSelect from './image/mes-sel.png'
+import Message from './image/mes.png'
 
 let Images = {PositivusLogo, MainTextImg, AmazonImg, DribbleImg, HubspotImg, NotionImg, NetflixImg,
     ZoomImg, LearnMoreGreen, LearnMoreWhite, Card1Pic, Card2Pic, Card3Pic, Card4Pic, Card5Pic, Card6Pic, ProposalPhoto,
-    UnwrapButton, JohnSmith, JaneDoe, MichaelBrown, EmilyJohnson, BrianWilliams, SarahKim}
+    UnwrapButton, JohnSmith, JaneDoe, MichaelBrown, EmilyJohnson, BrianWilliams, SarahKim, ArrowR, ArrowL, Message,
+    MessageSelect}
 
 export default Images;

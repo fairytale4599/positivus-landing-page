@@ -1,6 +1,8 @@
 import './MainPage.css';
 import Images from './Images';
 import WrapUnwrap from './UnwrapStage';
+import ReviewSlider from './ReviewSlider';
+import data from './UserReviews.json';
 
 function MainPage() {
   return (
@@ -379,6 +381,15 @@ function MainPage() {
                 <div className="posit-main-team-sec-inline">
                     <button className="posit-main-sec-button">See all team</button>
                 </div>
+            </section>
+            <section className="posit-main-reviews-sec">
+                <header className="posit-main-sec-header">
+                    <h1>Testimonials</h1>
+                    <p>Hear from Our Satisfied Clients: Read Our Testimonials
+                        to Learn More about Our Digital Marketing Services
+                    </p>
+                </header>
+                <ReviewSlider data={data}/>
             </section>
         </main>
     </div>
