@@ -391,7 +391,95 @@ function MainPage() {
                 </header>
                 <ReviewSlider data={data}/>
             </section>
+            <section className="posit-main-contact-sec">
+                <header className="posit-main-sec-header">
+                    <h1>Contact Us</h1>
+                    <p>Connect with Us: Let's Discuss Your<br/>Digital Marketing Needs</p>
+                </header>
+                <div className="posit-main-contact-sec-bg">
+                    <div className="posit-main-contact-sec-container">
+                        <form className="posit-main-contact-sec-form">
+                            <header className="posit-main-contact-form-header">
+                                <label>
+                                    <input type="radio" name="option" value="hi"/>
+                                    Say Hi
+                                </label>
+                                <label>
+                                    <input type="radio" name="option" value="quote"/>
+                                    Get a Quote
+                                </label>
+                            </header>
+                            <div className="posit-main-contact-form-input">
+                                <h3>Name</h3>
+                                <input type="text" placeholder="Name" required/>
+                            </div>
+                            <div className="posit-main-contact-form-input">
+                                <h3>Email</h3>
+                                <input type="email" placeholder="Email" required/>
+                            </div>
+                            <div className="posit-main-contact-form-input">
+                                <h3>Message</h3>
+                                <input type="text" placeholder="Your message here" required/>
+                            </div>
+                            <button type="submit" className="posit-main-sec-button" style={{marginTop: "40px",
+                            width: "100%"}}>Send Message</button>
+                        </form>
+                        <img src={Images.ContactImage} alt="Image"/>
+                    </div>
+                </div>
+            </section>
         </main>
+        <footer className="posit-footer">
+            <div className="posit-footer-container-bg">
+                <div className="posit-footer-container">
+                    <header className="posit-footer-header">
+                        <a href="/" className="posit-header-logo-container">
+                            <img className="posit-header-logo" alt="Positivus Logo" src={Images.PositivusLogoWhite}/>
+                        </a>
+                        <nav className="posit-footer-header-nav">
+                            <ul className="posit-footer-header-nav-ul">
+                                <li><a href="#">About us</a></li>
+                                <li><a href="#">Services</a></li>
+                                <li><a href="#">Use Cases</a></li>
+                                <li><a href="#">Pricing</a></li>
+                                <li><a href="#">Blog</a></li>
+                            </ul>
+                        </nav>
+                        <nav className="posit-footer-header-nav">
+                            <ul className="posit-footer-header-nav-ul" style={{width: "13vh"}}>
+                                <li><a href="#"><img alt="LinkedIn" src={Images.LinkedInLogo}/></a></li>
+                                <li><a href="#"><img alt="Facebook" src={Images.FacebookLogo}/></a></li>
+                                <li><a href="#"><img alt="Twitter" src={Images.TwitterLogo}/></a></li>
+                            </ul>
+                        </nav>
+                    </header>
+                    <section className="posit-footer-sec">
+                        <div className="posit-footer-sec-contacts">
+                            <h3>Contact us:</h3>
+                            <p>Email: info@positivus.com</p>
+                            <p>Phone: 555-567-8901</p>
+                            <p>Address: 1234 Main St</p>
+                            <p>Moonstone City, Stardust State 12345</p>
+                        </div>
+                        <form className="posit-footer-sec-subscription">
+                            <input type="email" placeholder="Email" required/>
+                            <button
+                                className="posit-main-sec-button"
+                                id="news-sub"
+                                type="submit"
+                                style={{
+                                    backgroundColor: "var(--posit-green)",
+                                    color: "black"
+                                }}
+                            >
+                                Subscribe to news
+                            </button>
+                        </form>
+                    </section>
+                    <p className="posit-footer-copyright">© 2023 Positivus. All Rights Reserved.</p>
+                </div>
+            </div>
+        </footer>
     </div>
   );
 }
