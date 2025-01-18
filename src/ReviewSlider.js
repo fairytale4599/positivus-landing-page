@@ -12,11 +12,33 @@ const TextSlider = ({ data }) => {
     }, [currentIndex, data]);
 
     const nextMessage = () => {
-        setCurrentIndex((prevIndex) => Math.min(prevIndex + 1, data.users.length - 1));
+        let messageReview = document.getElementById("slide-cont-rev")
+        let messageUser = document.getElementById("slide-cont-user")
+
+        messageReview.style.opacity = 0;
+        messageUser.style.opacity = 0;
+
+        setTimeout(() => {
+            setCurrentIndex((prevIndex) => Math.min(prevIndex + 1, data.users.length - 1));
+            messageReview.style.opacity = 1;
+            messageUser.style.opacity = 1;
+        }, 450);
+
     };
 
     const prevMessage = () => {
-        setCurrentIndex((prevIndex) => Math.max(prevIndex - 1, 0));
+        let messageReview = document.getElementById("slide-cont-rev")
+        let messageUser = document.getElementById("slide-cont-user")
+
+        messageReview.style.opacity = 0;
+        messageUser.style.opacity = 0;
+
+        setTimeout(() => {
+            setCurrentIndex((prevIndex) => Math.max(prevIndex - 1, 0));
+            messageReview.style.opacity = 1;
+            messageUser.style.opacity = 1;
+        }, 450);
+
     };
 
     const changeImage = (index) => {
@@ -31,7 +53,17 @@ const TextSlider = ({ data }) => {
     };
 
     const selectMessage = (index) => {
-        setCurrentIndex(index);
+        let messageReview = document.getElementById("slide-cont-rev")
+        let messageUser = document.getElementById("slide-cont-user")
+
+        messageReview.style.opacity = 0;
+        messageUser.style.opacity = 0;
+
+        setTimeout(() => {
+            setCurrentIndex(index);
+            messageReview.style.opacity = 1;
+            messageUser.style.opacity = 1;
+        }, 500);
     };
 
     if (!data || !data.users || data.users.length === 0) {
@@ -43,10 +75,10 @@ const TextSlider = ({ data }) => {
     return (
         <div className="slider-main">
             <div className="slider-container">
-                <div className="slider-container-review">
+                <div className="slider-container-review" id="slide-cont-rev">
                     <p className="slider-user-review">"{review}"</p>
                 </div>
-                <div className="slider-container-user">
+                <div className="slider-container-user" id="slide-cont-user">
                     <h2 className="slider-user-name">{name}</h2>
                     <p className="slider-user-job-title">{staff}</p>
                 </div>

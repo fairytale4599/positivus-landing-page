@@ -29,6 +29,7 @@
     background-color: var(--dark);
     position: relative;
     margin-bottom: 50px;
+    transition: opacity 0.5s ease-in-out;
 }
 
 .slider-container-review::after {
@@ -47,6 +48,7 @@
     transform: translateX(-50%);
     width: 30%;
     margin-top: 30px;
+    transition: opacity 0.5s ease-in-out;
 }
 
 .slider-container-user h2, p {
@@ -87,16 +89,21 @@
 .slider-controls button {
     background-color: transparent;
     border: 0;
+    transition: all 0.1s ease-in-out;
 }
 
 .slider-controls-mes button {
-    transition: all 0.5s ease-in-out;
+    transition: all 0.1s ease-in-out;
 }
 
 .slider-control-arrow {
-    transition: opacity 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
 }
 
 .slider-control-arrow:disabled {
     opacity: 0.5;
+}
+
+.slider-controls button:active, .slider-control-arrow:active {
+    transform: scale(0.8);
 }
