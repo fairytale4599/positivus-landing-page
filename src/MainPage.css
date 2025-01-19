@@ -915,4 +915,106 @@
     .posit-main-proposal-sec-container-img {
         display: none;
     }
+
+    .posit-main-casestud-sec {
+        align-items: center;
+    }
+
+    .posit-main-casestud-sec-cases {
+        background-color: var(--dark);
+        height: fit-content;
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    .posit-main-casestud-sec-cases-container {
+        margin: 0;
+        height: fit-content;
+        width: 100%;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .posit-main-casestud-sec-case {
+        background-color: var(--dark);
+        height: 500px;
+        width: max-content;
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-between;
+        p {
+            font-size: 40px;
+        }
+        a {
+            img {
+                height: 100px;
+                width: 400px;
+            }
+        }
+        margin-top: 50px;
+    }
+
+    .posit-main-casestud-sec-cases-container > :nth-child(2) {
+        border-left: 0;
+        border-right: 0;
+        padding: 0;
+    }
+
+    .posit-main-casestud-sec-cases-container > :nth-child(3) {
+        border-left: 0;
+        border-right: 0;
+        margin-bottom: 50px;
+    }
+
+    .posit-main-workproc-sec {
+        align-items: center;
+        header {
+            h1 {
+                font-size: 86px;
+            }
+        }
+    }
+
+    .posit-main-workproc-sec-stage-name-header {
+        h3 {
+            font-size: 54px;
+        }
+    }
+
+    .posit-main-workproc-sec-stage-text {
+        font-size: 20px;
+        margin-top: 17px;
+    }
+
+    .posit-main-team-sec {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .posit-main-team-sec-inline {
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin-top: 300px;
+
+        button {
+            width: 500px;
+            height: 100px;
+            font-size: 32px;
+        }
+    }
+
+    .posit-main-team-sec-inline-staff {
+        transform: scale(1.5);
+        margin-top: 250px;
+    }
+
+    .posit-main-team-sec-inline-staff:nth-child(1) {
+        margin-top: 0;
+    }
 }
