@@ -58,7 +58,7 @@ function MainPage() {
                 <header className="posit-main-sec-header">
                     <h1>Services</h1>
                     <p>At our digital marketing agency,
-                        we offer a range of services <br/>
+                        we offer a range of services
                         to help businesses grow and succeed online.
                         These services include:
                     </p>
