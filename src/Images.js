@@ -1,4 +1,5 @@
 import PositivusLogo from './image/logo.png'
+import MenuImg from './image/menu.png'
 import PositivusLogoWhite from './image/logo-w.png'
 import MainTextImg from './image/main-text.png'
 import AmazonImg from './image/company-logo.png'
@@ -33,7 +34,7 @@ import FacebookLogo from './image/facebook.png'
 import TwitterLogo from './image/twitter.png'
 
 
-let Images = {PositivusLogo, PositivusLogoWhite, MainTextImg, AmazonImg, DribbleImg, HubspotImg, NotionImg, NetflixImg,
+let Images = {PositivusLogo, MenuImg, PositivusLogoWhite, MainTextImg, AmazonImg, DribbleImg, HubspotImg, NotionImg, NetflixImg,
     ZoomImg, LearnMoreGreen, LearnMoreWhite, Card1Pic, Card2Pic, Card3Pic, Card4Pic, Card5Pic, Card6Pic, ProposalPhoto,
     UnwrapButton, JohnSmith, JaneDoe, MichaelBrown, EmilyJohnson, BrianWilliams, SarahKim, ArrowR, ArrowL, Message,
     MessageSelect, ContactImage, LinkedInLogo, FacebookLogo, TwitterLogo}

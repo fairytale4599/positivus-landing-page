@@ -1,6 +1,6 @@
 .posit-header-nav-ul-button:hover,
 .posit-header-nav-ul li:hover,
-.posit-main-sec1-button:hover,
+.posit-main-sec-button:hover,
 .posit-main-company-sec-img:hover,
 .posit-main-services-card-container-part1-g a:hover,
 .posit-main-services-card-container-part1-w a:hover,
@@ -15,6 +15,10 @@
     margin-top: 60px;
     justify-content: center;
     display: flex;
+}
+
+.posit-header-wrap {
+    display: none;
 }
 
 .posit-main-sec-header {
@@ -117,6 +121,7 @@
     font-size: 20px;
     font-family: "Space Grotesk", sans-serif;
     font-weight: normal;
+    margin-bottom: 35px;
 }
 
 .posit-main-sec-button {
@@ -130,6 +135,7 @@
     font-family: "Space Grotesk", sans-serif;
     font-weight: normal;
     transition: transform 0.5s ease-in-out;
+    cursor: pointer;
 }
 
 .posit-main-company-sec {
@@ -737,4 +743,64 @@
     color: white;
     font-family: "Space Grotesk", sans-serif;
     font-weight: normal;
+}
+
+
+/* For iPhone 12 and higher */
+@media screen and (min-width: 1170px) and (min-height: 2532px) {
+    .posit-header-container {
+        flex-wrap: wrap;
+        flex-direction: column;
+        height: 66px;
+        overflow: hidden;
+    }
+
+    .posit-header-logo-container {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .posit-header-wrap {
+        display: block;
+        width: 56px;
+        height: 56px;
+    }
+
+    .posit-header-nav {
+        width: 100%;
+    }
+
+    .posit-header-nav-ul {
+        font-size: 36px;
+        width: 100%;
+        align-items: flex-start;
+        justify-content: space-between;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .posit-header-nav-ul-button {
+        font-size: 26px;
+    }
+
+    .posit-main-sec1 {
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .posit-main-sec1-text-header {
+        font-size: 84px;
+    }
+
+    .posit-main-sec1-text-paragraph {
+        font-size: 34px;
+    }
+
+    .posit-main-sec1-text a button {
+        width: 100%;
+        height: 150px;
+        font-size: 35px;
+    }
 }

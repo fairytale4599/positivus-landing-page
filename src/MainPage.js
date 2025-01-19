@@ -2,17 +2,19 @@ import './MainPage.css';
 import Images from './Images';
 import WrapUnwrap from './UnwrapStage';
 import ReviewSlider from './ReviewSlider';
+import WrapUnwrapHeader from './UnwrapMenu';
 import data from './UserReviews.json';
 
 function MainPage() {
   return (
     <div className="MainPage">
         <header className="posit-header">
-            <div className="posit-header-container">
-                <a href="/" className="posit-header-logo-container">
-                    <img className="posit-header-logo" alt="Positivus Logo" src={Images.PositivusLogo}/>
-                </a>
-                <nav className="posit-header-nav">
+            <div className="posit-header-container" id="main-header">
+                <div  className="posit-header-logo-container">
+                    <a href="/"><img className="posit-header-logo" alt="Positivus Logo" src={Images.PositivusLogo}/></a>
+                    <img className="posit-header-wrap" alt="Unwrap nav" src={Images.MenuImg} onClick={WrapUnwrapHeader}/>
+                </div>
+                <nav className="posit-header-nav" id="main-header-nav">
                       <ul className="posit-header-nav-ul">
                           <li><a href="#">About us</a></li>
                           <li><a href="#">Services</a></li>
