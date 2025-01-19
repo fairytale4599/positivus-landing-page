@@ -748,6 +748,10 @@
 
 /* For iPhone 12 and higher */
 @media screen and (min-width: 1170px) and (min-height: 2532px) {
+    .MainPage {
+        overflow: hidden;
+    }
+
     .posit-header-container {
         flex-wrap: wrap;
         flex-direction: column;
@@ -767,7 +771,8 @@
     }
 
     .posit-header-nav {
-        width: 100%;
+        width: 50%;
+        display: none;
     }
 
     .posit-header-nav-ul {
@@ -851,6 +856,7 @@
             width: 100%;
             text-align: center;
             margin-bottom: 32px;
+            margin-left: 0;
         }
     }
 
@@ -1016,5 +1022,23 @@
 
     .posit-main-team-sec-inline-staff:nth-child(1) {
         margin-top: 0;
+    }
+
+    .posit-footer-container-bg {
+        width: 100%;
+    }
+
+    .posit-footer-header {
+        align-content: flex-start;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .posit-footer-header-nav {
+        width: 500px;
+    }
+
+    .posit-header-logo-container {
+        width: 300px;
     }
 }

@@ -107,3 +107,26 @@
 .slider-controls button:active, .slider-control-arrow:active {
     transform: scale(0.8);
 }
+
+@media screen and (min-width: 1170px) and (min-height: 2532px) {
+    .slider-container-review {
+        width: 100%;
+    }
+
+    .slider-container-user {
+        width: 300px;
+    }
+
+    .slider-user-name {
+        font-size: 45px;
+    }
+
+    .slider-user-job-title {
+        font-size: 35px;
+        width: 600px;
+    }
+
+    .slider-main {
+        height: 975px;
+    }
+}
