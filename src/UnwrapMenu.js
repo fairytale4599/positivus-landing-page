@@ -13,7 +13,9 @@ export default function WrapUnwrapHeader(event) {
     if (isWrapped) {
         header.style.height = "450px";
         headerNav.style.opacity = 1;
-        headerNav.style.display = "block";
+        setTimeout(() => {
+            headerNav.style.display = "block";
+        }, "500");
     } else {
         headerNav.style.display = "none";
         header.style.height = "66px";
